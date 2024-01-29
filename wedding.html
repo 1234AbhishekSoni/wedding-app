@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+                    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+                    <link rel="stylesheet" type="text/css" href="wedding.css">
+                    <script src="wedding.js"></script>
+                    <script src="jquery-3.6.3.js"></script>
+                    <title>Wedding</title>
+                    <link rel="icon" href="w1.jpg">
+                    <script>
+                     
+                      $(document).ready(function(){
+
+                      $("#mode").click(function(){
+                      $(".one").toggleClass("design");
+                    });                     
+                    });
+
+                    
+                    </script>
+</head>
+<body>
+     <div class="one">
+    <!--  ----nav-item- -->
+   <nav class="navbar navbar-expand-sm navbar fixed-top">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img class="logo-image" src="images/logo1-removebg-preview.png" alt=""></a>
+       <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+         <ul class="navbar-nav me-auto">
+           <li class="nav-item">
+             <a class="nav-link head" href="#Home">HOME</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link head" href="#about">ABOUT</a>
+          </li>
+           <li class="nav-item">
+             <a class="nav-link head" href="#service">SERVICES</a>
+           </li>
+          
+           <li class="nav-item">
+             <a class="nav-link head" href="#gallery">GALLERY</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link head" href="video.html">VIDEO</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link head" href="portfolio.html">PORTFOLIO</a>
+          </li>
+           
+           <li class="nav-item">
+             <a class="nav-link head" href="#package">PACKAGE</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link head" href="#contact">CONTACT</a>
+           </li>
+         </ul>
+         <button id="mode" class="mode-btn btn-sm me-2 "><img src="images/mode-icon.png" alt="" height="25px"></button>
+         <form class="d-flex">
+          <button class="btn bg-danger text-white m-1"> <a href="login.html" class=" login-btn text-white ">Login</a></button>
+           <button class="btn bg-primary text-white m-1"><a href="siignup.html" class=" login-btn text-white">Sign Up</a></button>
+          </form>
+     </div>
+     </div>
+   </nav>
+<!-- <-- --------CARROWSAL--------- -->
+  <main class="home" id="Home">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="images/port6.jpg" alt="" class="  d-block w-100" height="700px" >
+        </div>
+        <div class="carousel-item ">
+            <img src="images/port4.jpg" alt="" class="  d-block w-100"  height="700px">
+        </div>
+        <div class="carousel-item">
+            <img src="images/a1.jpg" alt="" class=" d-block w-100" height="700px" >
+        </div>
+        <div class="carousel-item">
+          <img src="images/s1.jpg" alt="" class=" d-block w-100" height="700px" >
+      </div>
+    </div>
+    <div class="carousel-indicators">
+        <button  data-bs-target="#demo" data-bs-slide-to="0"></button>
+        <button  data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+        <button  data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button  data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+    <div >
+        <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide= "prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    
+    </div>
+     <!-- -------------About Us---------- -->
+     <div class="container" id="about">
+      <div class="row mt-5">
+        <div class="col-md-8 mt-5">
+          <h1 class="heading h1 text-center ">ABOUT US</h1>
+          <h5 class="mt-3"><i> Wedding is a montage of special moments experienced by the couples and their families. We, Royal Wedding Planners at Malad West in Mumbai, Maharashtra, bring in equal style and detail to every wedding story – we help conceptualize, design, organize and coordinate the sequence of rituals and ceremonies for the subtle and smooth flow of your special day. We take pride in our ability to create the perfect ambience, blending traditions with current trends and innovations. Whether you wish for a small and intimate affair, a royal wedding or an exotic & scintillating destination wedding, we will make it a zealous moment to treasure and remember!!!!</i></h5>
+        </div>
+        <div class="col-md-4 mt-5">
+          <img src="images/about1.jpg" alt="" class="abt-img">
+        </div>
+      </div>
+    </div>
+      
+<!-- --------service page-------- -->
+  <div class="container" id="service">
+  <div class="row mt-5">
+    <div class="col-md-12">
+      <h1 class=" heading h1 text-center">SERVICES</h1>
+    </div>
+    </div>
+    <div class="row d-flex mt-4">
+    <div class="col-md-4">
+        <img src="images/service6.jpg" alt="" class="srvc-img"><br>
+        <h4 class="text-center mt-4"> Wedding Decoration</h4><br>
+        <P>Your wedding is one of the most significant milestones of your life. And what’s more romantic than jetting off to a beautiful location and celebrating the start of the rest of your life amidst people you cherish with a destination wedding.</P>
+    </div>
+    <div class="col-md-4">
+        <img src="images/service4.jpg" alt=""  class="srvc-img"><br>
+        <h4 class="text-center mt-4">Stage Decoration</h4><br>
+        <P>We’re a wedding styling company specializing in chic, elegant and innovative themes, decors and sets for weddings. Every kind of theme is made possible with one symbolic wave of our magic wand to cherish and enhance your wedding.</P>
+    </div>
+    <div class="col-md-4">
+        <img src="images/service5.jpg" alt=""  class="srvc-img"><br>
+        <h4 class="text-center mt-4">Haldi & Mehndi Decoration </h4><br>
+        <P>”If you are wondering what we are talking about, well this is the only colour you can see in a haldi ceremony. From the turmeric to the clothes to the yellow marigolds, everything is just yellow.</P>
+    </div>
+    </div>
+    
+
+<div class="row d-flex">
+    
+  <div class="col-md-4">
+      <img src="images/service3.jpg" alt=""  class="srvc-img" ><br>
+      <h4 class="text-center mt-4">Host Service For Wedding</h4><br>
+      <P>Every wedding has a timeline, and it takes a skilled Wedding Host, a modern day toastmaster, to keep it on track. We provide professional hosts for wedding at very cost effective rates to our clients.</P>
+      
+  </div>
+  <div class="col-md-4">
+      <img src="images/service2.jpg" alt="" xdx class="srvc-img"><br>
+      <h4 class="text-center mt-4">Guest Siiting Decoration</h4><br>
+      <P>“People are guests in our story, the same way we are guests in theirs. But we all meet each other for a reason because every person is a personal lesson waiting to be told.”</P>
+  </div>
+  <div class="col-md-4">
+      <img src="images/service1.png" alt="" xdx class="srvc-img"><br>
+      <h4 class="text-center mt-4">Welcome Entry Decoration</h4><br>
+      <P>"Welcome to our love story." ...
+        "I have found the one whom my soul loves." ...
+        "You are the best thing." ...
+        "They could not remember a time, until now, that forever did not seem long enough." ...
+        </P>
+  </div>
+  </div>
+  
+
+                  </div>
+                   
+                  <!-- ------------Gallery--------------- -->
+
+                  <div class="container mt-5" id="gallery">
+                    <h1 class="heading h1 text-center "> Gallery <h1> 
+                    <div class="row d-flex mt-4">
+                      <div class="col-md-3">
+                        <img src="images/t1.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/g1.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/t4.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/w1.jpg" alt="" class="g-img">
+                      </div>               
+                    </div>
+                    <div class="row d-flex mt-2">
+                      <div class="col-md-3">
+                        <img src="images/g2.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/g3.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/Wedding3.jpg" alt="" class="g-img">
+                      </div>
+                      <div class="col-md-3">
+                        <img src="images/wedding1.jpg" alt="" class="g-img">
+                      </div>               
+                    </div>
+                  </div>
+                  <!-------testimonial--------->
+
+                  <div class="container mt-5">
+                    <h1 class="heading h1 text-center "> Testimonial </h1>
+                    <h3 ><u>Our Client Say!!</u></h3>
+
+                    <div class="row mt-5">
+                    <div class="col-md-4">
+                      <img src="images/test4.jpg" alt="" class="t-img rounded-pill" >
+                      <h4 class="text-center">Mr. Anand sharma</h4>
+                      <p class="text-center">Business Man</p>
+                      <p>Thankyou so much TPW team for making such beautiful and nice arrangements for the day's event.. Everything was alluring.. Be it the decorations or the food stalls.. People could not stop talking about any of it and praising it.. Especially the Pani Puris and the Mehandi wala.  </p> <br>
+                      
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/test5.jpg" alt="" class="t-img rounded-pill ">
+                      <h4 class="text-center">Mrs. kristal</h4>
+                      <p class="text-center">Gov. Employe</p>
+                      <p>This one of the best team i ever came across. They put all efforts to make your event memorable. They treat you like family and take care of your every need. It was amazing working with them, i would recommend them to everyone for experience of a lifetime. </p> <br>
+                      
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/tes1.jpg" alt="" class="t-img rounded-pill">
+                      <h4 class="text-center">Dr.Shivam Sharma</h4>
+                      <p class="text-center">Doctor</p>
+                      <p>The Perfect weddings is the perfect wedding company for a perfect wedding!! They put all their heart and soul in making it the best day for a bride and the groom!! They put their 100% in making it a success!! Their decor is totally mesmerising.. the best wedding company!! </p> <br>
+                      
+                    </div>
+                    </div>
+                   </div>
+                   <div class="container mt-5">
+                    <div class="row mt-5">
+                      <div class="col-md-4">
+                        <img src="images/wedding-couple.png" alt="" class="couple ">
+                        <h3 class="text-center mt-3">Happy Couples</h3>
+                        <p>Happy customer the best wedding experts in Los Angeles to help you make your wedding are better.</p>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="images/businessmen.png" alt="" class="couple">
+                        <h3 class="text-center mt-3">Profesional Team</h3>
+                        <p>We will thoroughly plan every element of your wedding ceremony so that you could enjoy your most important day.</p>
+                      </div>
+                      <div class="col-md-4">
+                        <img src="images/price.png" alt="" class="couple">
+                        <h3 class="text-center mt-3">Acceptable Prices</h3>
+                        <p>Our clients value our affordable pricing policy and great service that allow us to plan the best weddings.</p>
+                      </div>
+                    </div>
+                   </div>
+                   <!-- ------------Package---------- -->
+                  
+                   <div class="container text-center mt-5" id="package">
+            <h1 class=" heading h1 text-center">Wedding Package</h1><br>
+            <h4> PRICING PLAN</h4>
+            <div class="row">
+                
+                <div class="col-md-4 bg-info p-5">
+                    <h2>BASIC</h2>
+                    <h2>2 Lakh</h2>
+                </div>
+                <div class="col-md-4 bg-primary p-5">
+                    <h2>STANDERD</h2>
+                    <h2>5 Lakh</h2>
+                </div>
+                <div class="col-md-4 bg-secondary p-5">
+                    <h2>PREMIUM</h2>
+                    <h2>10 Lakh</h2>
+                </div>
+                
+            </div>
+        </div>
+        <!-- -----------Contact Us----------- -->
+
+        <div class="container text-center mt-5" id="contact">
+          <h1 class=" heading h1 text-center">CONTACT US</h1>
+          
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <h3 class="contact">Our Office Address</h3>
+              <p>Jabalpur Near Suhagi , 482004</p><br>
+              <h3 class="contact">Gernal Enquire</h3>
+              <p>abhisheksoni1611@gmail.com</p><br>
+              <h3 class="contact">Call us:</h3>
+              <p>9131406356</p><br>
+              <h3 class="contact">Our Timing</h3>
+              <p>Mon - Sun : 09:00 AM - 09:00 PM</p><br>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-col">
+                <form action="">
+                  <input type="text" placeholder="Enter Your Name" required>
+                  <input type="Email" placeholder="Enter Email Address" required>
+                  <input type="text" placeholder="+91" required>
+                  <textarea rows="8" placeholder="Message" required></textarea>
+                  <button type="Submit" class="hero-btn bg-danger text-white btn-lg">SUBMIT</button>
+                </form>
+              </div>
+            
+            </div>
+            </div>
+            </div>
+
+            <!-- --------Map--------- -->
+            <section class="location">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28587.585037017212!2d79.88626621371412!3d23.186604909389196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b1cf869b23d3%3A0xba036e94dbe1ccc9!2sVijay%20Nagar%2C%20Jabalpur%2C%20Madhya%20Pradesh%20482002!5e0!3m2!1sen!2sin!4v1681464398231!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <!-- -----------Footer-------- -->
+
+            <div>
+              <footer>
+                <div class="container-fluid">
+                <div class="row">
+                  
+                  <div class="col-md-3  text-center bg-dark text-white ">
+                    <img src="images/logo2.png" alt="" class="mt-5" height="150px" width="50%"><br><br>
+                    <p>Looking for the right words to express your feelings on the big day? Turn to these funny, sentimental, or traditional quotes for your vows, toasts, speeches, and more. Whether you want to impart some wisdom or inject a little laughter into your bridal shower toast or best man speech.</p>
+                  </div>
+                  <div class="col-md-3  text-center bg-dark text-white "><br><br>
+                    <h1 class="ftr"><u>Office</u></h1><br>
+                    <p>Jabalpur New Shanti Nagar Near Suhagi,482004</p><br>
+                    <p><u>abhisheksoni1611@gmail.com</u></p><br>
+                    <p>+91-9131406356</p>
+
+                  </div>
+                  <div class="col-md-3  text-center bg-dark text-white"><br><br>
+                    <h1 class="ftr"><u>Links</u></h1><br>
+                    <p><a href="#Home" class="text-white">HOME</a></p><br>
+                    <p><a href="#service" class="text-white">SERVICE</a></p><br>
+                    <p><a href="#about" class="text-white">ABOUT</a></p><br>
+                    <p><a href="#gallery" class="text-white">GALLERY</a></p><br>
+                    <p><a href="#contact" class="text-white">CONTACT</a></p><br>
+                  
+                  </div>
+                  <div class="col-md-3  text-center bg-dark text-white"><br><br>
+                    <h1 class="ftr"><u>KAMAL EVENTS</u></h1><br>
+                    
+                    <u><input type="email" placeholder="Enter Your Email"></u>
+                    <button class="btn bg-danger text-white">Submit</button><br><br>
+                   <a href="https://www.facebook.com/"> <img src="images/facebook-logo-button.png" alt=""></a>
+                   <a href="https://www.instagram.com/accounts/login/"> <img src="images/instagram.png" alt=""></a>
+                   <a href="https://twitter.com/"> <img src="images/twitter-logo-button.png" alt=""></a>
+
+                   <div onclick="scrollToTop()" class="scrollTop rounded-pill">^</div>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+        
+          
+                    
+                    
+                    
+</body>
+</html>

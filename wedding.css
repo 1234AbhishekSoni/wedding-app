@@ -1,0 +1,134 @@
+        *{
+                    margin: 0%;
+                    padding: 0%;
+}
+.navbar{
+        background-color: rgb(245, 162, 176);
+}
+
+.navbar-nav li a{
+                    color: white;
+                    font-size: 20px;
+}
+.nav-link:hover{
+                    background-color: rgb(216, 205, 207);
+                    color: black;
+                    border-radius: 15px;
+}
+.login-btn{
+        border: none;
+        text-decoration-line: none;
+}
+.nav-btn{
+        float: left;
+}
+
+.head{
+        font-family: cursive;
+}
+.logo-image{
+                    height: 80px;
+                    width: 100%;
+}
+.heading{
+                    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main{
+                    text-align: center;
+                    margin-top: 200px;
+}
+.srvc-img{
+                    border-radius: 40px;
+                    height: 300px;
+                    width: 100%;
+                    transition: transform .2s;
+                    /* transition: width 2s, height 2s, transform 2s; */
+                  
+}
+.srvc-img:hover{
+        opacity: 0.8;
+        border-radius: 50px;
+        outline: 2px solid black;
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+         transform: scale(1.1); 
+        
+       
+}
+.abt-img{
+                    border-radius: 40px;
+                    width: 90%;
+}
+.g-img{
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+        transition: width 1s, height 1s, transform 1s;
+}
+
+.g-img:hover{
+        opacity: 0.6px;
+        border-radius: 50px;
+        outline: 1px solid gray;
+        transform: rotate(90deg);
+       
+}
+.couple{
+        height: 80px;
+        margin-left: 160px;
+}
+.t-img{
+        height: 250px;
+        width: 60%;
+        margin-left: 100px;
+        border: 1px solid black;
+        border-radius: 2px;
+}
+.contact{
+        font-family: sans-serif;
+}
+.location{
+        width: 80%;
+        margin: auto;
+        padding: 80px 0;
+
+}
+.location iframe{
+        width: 100%;
+}
+.contact-col input, .contact-col textarea{
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+        outline: none;
+        border: 1px solid black;
+}
+
+.ftr{
+        font-weight: 200;
+        font-family: serif;
+}
+.design{
+        background: black;
+        color: white;
+}
+.scrollTop{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        padding: 10px 15px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+}
+.scrollTop:hover{
+        background-color: brown;
+        color: #000;
+}
+
+
+

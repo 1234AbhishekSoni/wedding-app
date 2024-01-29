@@ -1,0 +1,29 @@
+*{
+          margin: 0%;
+          padding: 0%;
+}
+.full{
+          /* border: 1px solid black; */
+          padding: 20px;
+          width: 40%;
+          margin-left: 400px;
+}
+body{
+                    background-image: url(images/login9.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed;
+}
+h5{
+          text-align: center;
+}
+.one{
+          text-align: center;
+}
+.img1{
+          height: 20px;
+}
+.img2{
+          height: 30px;
+}

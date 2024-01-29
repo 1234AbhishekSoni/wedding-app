@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.b-btn{
+  background-color: rgb(182, 173, 173);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+  
+
+<video autoplay muted loop id="myVideo">
+  <source src="videos/video2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+
+<div class="content">
+  <div class="btn">
+    <button class="b-btn"> <a href="wedding.html">Back</a></button>
+  </div>
+  <h1>Wedding Decoration</h1>
+  <p>While your wedding photos can speak a thousand words in themselves, our list of beautiful wedding captions for Instagram will be the cherry on top. Deep dive into our collection of lovely wedding photo captions that will fit your stunning photographs to the wedding</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+<div>
+  
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>

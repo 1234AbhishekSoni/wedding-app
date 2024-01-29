@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="css/bootstrap.css">
+          <script src="js/bootstrap.bundle.js"></script>
+          <title>Form</title>
+          <style>
+            
+                    .sign-icon{
+                                        height: 20px;
+                    
+                    }
+                    body{
+                                        font-family:Verdana, Geneva, Tahoma, sans-serif;
+                                        background-image: url("login4.jpg");
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                    }
+                    
+                    .form{
+                          width: 500px;
+                           position: absolute;
+                           top: 40%;
+                           left: 50%;
+                           transform: translate(-50%,-50%);
+                           color: black;         
+
+                    }
+                    .btn3{
+                                        
+                                        cursor: pointer;
+                                        width: 100%;
+                                        margin-left: 100px;
+                                        border: none;
+                                        padding: 10px 30px;
+                                        
+                    }
+                    .btn-4{
+                      background-color: rgb(93, 104, 253);
+                      color: white;
+                      border-radius: 10px;
+                      cursor: pointer;
+                    }
+          </style>
+          <script>
+                    function validation(){
+                              let name = document.getElementById('name').value;
+                              if(name == ""){
+                              alert("Please Enter Name");
+                              return false;
+                              }
+                              if(name.length < 3){
+                                alert("name is short");
+                              }
+                              let email = document.getElementById('email').value;
+                              if(email == ""){
+                              alert("Please Enter Email");
+                              return false;
+
+                              }
+                              let pass = document.getElementById('password').value;
+                              if(pass == ""){
+                              alert("Please Enter password");
+                              return false;
+
+                              }
+                              
+                              let contact = document.getElementById('contact').value;
+                              if(contact == ""){
+                              alert("Please Enter Contact Number");
+                              return false;
+                              }
+                             
+                    }
+                    
+               </script>
+
+</head>
+<body>
+  
+         
+<div class="form">
+  <div class="container">
+ <div class="row">
+  <div class="col-md-12">
+  <h1 class="m-4">CREATE ACCOUNT</h1>
+  <p class="m-4">Get Start With Your Free Account </p>
+</div>
+ </div>
+ <div class="row">
+<button type="button" class=" btn2 btn btn-primary">
+<img src="images/twitter-removebg-preview.png" alt="" class= sign-icon>
+Login Via Twitter
+</button>
+</div><br>
+<div class="row">
+<button type="button" class=" btn2 btn btn-primary">
+<img src="images/facebook-removebg-preview.png" alt="" class= sign-icon>
+Login Via facebook
+</button>
+</div><br>
+<table>
+<form action="form.html" class="form-temp" onsubmit="return validation()">
+<tr class="p-2">
+                   
+ <td><label for=""> Name:</label></td>
+ 
+<td> <input type="text" name="" id="name" placeholder="Please Enter Name"> </td>
+ </tr>
+ 
+ <tr>
+<td><label for="">Email:</label></td> 
+ <td><input type="email" name="" id="email" placeholder="Please Enter Email"></td> 
+ </tr>
+ <tr>
+<tr>
+<td> <label for="">Password:</label></td>
+<td><input type="password" name="" id="password" placeholder="Please Enter Password"> </td>
+</tr>
+<tr>
+<td> <label for=""> Reset Password:</label></td>
+<td><input type="password" name="" id="password" placeholder=" Enter Confirm Password"> </td>
+</tr>
+<tr>
+ <td><label for="">Contact:</label></td>
+<td> <input type="contact" name="" id="contact" placeholder="+91"> </td>
+ </tr>
+ 
+ 
+ <tr>
+           <td><input type="submit" class="btn3 bg-primary text-white mt-3"></td>
+ </tr>
+
+</form>
+                                   
+</table>
+ <button class="btn-4"><a href="wedding.html" class="text-white">Back</a></button>
+    </div>
+</div>
+          
+</body>
+</html>
